@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign Up</title>
+</head>
+<body>
+	<div>
+		<h2>Already Registered? <u>LOGIN</u> now</h2>
+		<form>
+			<label for="email">Email</label>
+			<input type="Email" id="email" name="email" placeholder="abc@gmail.com">
+			<label for="password">Password</label>
+			<input type="Password" id="password" name="password">
+			<button type="submit"> <img src="../Images/logo.png" width="30" height="10"> Login </button>
+		</form>
+		<br>
+		<hr>
+		<br>
+		<h3> <a href="http://blog.codingninjas.in/">Coding Ninjas Blogs</a> </h3>
+		<div>
+			<img src="../Images/Banner.png" width="100%">
+		</div>
+		<br>
+		<hr>
+		<br>
+		<h2><u>REGISTRATION</u></h2>
+		<br>
+		<table>
+			<form>
+			<tr>
+				<td>
+					<label for="first_name">First Name:&emsp;&emsp;</label>
+					<input type="text" name="first_name" id="first_name">
+					
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="last_name">Last Name:&nbsp;&emsp;&emsp;</label>
+					<input type="text" name="last_name" id="last_name">
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="3">
+					Current Address:
+				</td>
+				<td>
+					<label for="address">Flat No./House No.</label>
+					<input type="text" name="house_no" id="address">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="address">Locality&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;</label>
+					<input type="text" name="locality" id="address">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="address">City&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+					<input type="text" name="city" id="address">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<b>Is Current address and Permanent address same?&nbsp;</b>
+					<input type="radio" name="">
+					<label for="address">Yes</label>
+					<input type="radio" name="">
+					<label for="address">No</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<form>
+						<label for="email">Email:&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;</label>
+						<input type="Email" name="email" id="email" placeholder="abc@gmil.com">
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<form>
+						<label for="password">Password:&emsp;&emsp;&emsp;</label>
+						<input type="Password" name="password" id="password">
+					</form>
+				</td>
+			</tr>
+			</form>
+		</table>
+		<br>
+		<button type="submit">Register</button>
+	</div>
+</body>
+</html>
